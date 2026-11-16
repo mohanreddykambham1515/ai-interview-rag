@@ -21,4 +21,4 @@ tenacity
 pytest
 httpx
 fastembed==0.9.1
-onnxruntime==1.23.2
+
