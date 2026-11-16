@@ -1,0 +1,26 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Docker and local databases
+docker_parent_child_data/
+parent_child_data/
+parent_child_hybrid_data/
+qdrant_data/
+
+# IDE
+.vscode/
+
+# Temporary files
+*.log
